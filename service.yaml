@@ -7,7 +7,7 @@ spec:
     app: nginx
   ports:
     - protocol: TCP
-      port: 80
+      port: 443
       targetPort: 443
       nodePort: 31060
       name: http
